@@ -17,3 +17,7 @@
 	/* Body Copy */
 	--font-size-body: 16px;
 }
+
+h1 {
+	font-weight: 800;
+}

@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	margin-bottom: 1em;
+}
+
+.header span:last-child {
+	justify-self: flex-end;
+}
+
+.unread {
+	background-color: var(--blue);
+	color: var(--white);
+	border-radius: 8px;
+	padding: 0 0.6em;
+	font-size: 1.5em;
+}
+
+.markAsRead {
+	justify-self: flex-end;
+	flex: 1;
+	text-align: right;
+	color: var(--dark-grayish-blue);
+}
+
+.notifications {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
