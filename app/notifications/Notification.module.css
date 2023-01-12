@@ -11,7 +11,7 @@
 }
 
 .unread {
-	background-color: var(--very-light-grayish-blue);
+	background-color: var(--light-grayish-blue-1);
 }
 
 .notification img {
@@ -37,9 +37,6 @@
 .unreadIndicator {
 	color: var(--red);
 	margin-left: 0.2em;
-	font-size: 2em;
-	line-height: 0.5;
-	align-self: center;
 }
 
 .notificationText {

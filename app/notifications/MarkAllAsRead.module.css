@@ -1,0 +1,11 @@
+.markAsRead {
+	margin-left: auto;
+	color: var(--dark-grayish-blue);
+	background-color: unset;
+	border: unset;
+	cursor: pointer;
+}
+
+.markAsRead:hover {
+	font-weight: 800;
+}
